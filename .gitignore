@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CodeQuestions/v17
+*.json
+/Continuous_Probability_Distributions/.vs/Distributions.Console/DesignTimeBuild
+/Continuous_Probability_Distributions/.vs/Distributions.Console/FileContentIndex
+/Continuous_Probability_Distributions/.vs/Distributions.Console/v17
+/Continuous_Probability_Distributions/Distributions/bin/Debug/net8.0
+/Continuous_Probability_Distributions/Distributions/obj
+/Continuous_Probability_Distributions/Distributions.Console/.vs/Distributions.Console/DesignTimeBuild
+/Continuous_Probability_Distributions/Distributions.Console/.vs/Distributions.Console/FileContentIndex
+/Continuous_Probability_Distributions/Distributions.Console/.vs/Distributions.Console/v17
+/Continuous_Probability_Distributions/Distributions.Console/bin/Debug/net8.0
+/Continuous_Probability_Distributions/Distributions.Console/obj
+/Continuous_Probability_Distributions/Distributions.Test/bin/Debug/net8.0
+/Continuous_Probability_Distributions/Distributions.Test/obj

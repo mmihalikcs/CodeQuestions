@@ -5,22 +5,17 @@ namespace Distributions.Implementations
     public class NormalDistribution : IContinuousProbabilityDistribution
     {
         // Properties
-        public double Mean => _mean;
-        public double Variance => _variance;
+        public double Mean => _mu;
+        public double Variance => _sigmaSquared;
 
         // Fields
         double _mu = 0.0;
         double _sigmaSquared = 0.0;
-        double _mean = 0.0;
-        double _variance = 0.0;
 
         public NormalDistribution(double mu, double sigmaSquared)
         {
             _mu = mu;
-            _sigmaSquared = sigmaSquared;
-            // Guard Checks for Mean/Variance
-            _mean = mu;
-            _variance = sigmaSquared > 0 ? sigmaSquared : throw new ArgumentException("Value is not greater than zero", "sigmaSquared");
+            _sigmaSquared = sigmaSquared > 0? sigmaSquared : throw new ArgumentException("Value is not greater than zero", "sigmaSquared");
         }
 
         public double PDF(double x)
